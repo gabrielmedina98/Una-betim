@@ -1,0 +1,26 @@
+Exercico de usando VETOR
+public static void main(String[] args) {
+        Scanner leia = new Scanner(System.in);
+        int notas[] = new int[5];
+        double  media, maior, menor;
+        int i;
+        for (i = 1; i < notas.length; i++) {
+            System.out.println("Digite a " + i + " " + "nota");
+            notas[i] = leia.nextInt();
+        }
+        maior = notas[1];
+        menor = notas[1];
+
+        for ( i = 2; i < notas.length; i++) {
+            if (notas[i] > maior) {
+                maior = notas[i];
+            } else if (menor < notas[i]) {
+                menor = notas[i];
+            }
+        
+        }
+        //media = (notas[1]+ notas[2]+notas[3]+ notas[4]+notas[5])/5;
+        //System.out.println("A media das notas é " + media);
+
+        System.out.println("A maior nota é " + maior);
+        System.out.println("A menor nota é " + menor);
