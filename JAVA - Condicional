@@ -1,0 +1,287 @@
+[19:51, 27/09/2022] Gabriel Martins - Una: /* //QUESTAO1 
+        int num1,num2;
+        System.out.println("Digite o primeiro numero: ");
+        num1 = leia.nextInt();
+        System.out.println("Digite o segundo numero: ");
+        num2 = leia.nextInt();
+        if(num1>num2){
+        System.out.println("O numero " +num1+ "é maior que" +num2);
+        }
+        else if(num2>num1){
+            System.out.println("O numero " +num2+ " é maior que "+num1);
+        }
+        else
+            System.out.println("Os numeros sao iguais");
+        }
+        */
+    //QUESTAO2
+   /* int nota1,nota2,media;
+        System.out.println("Digita a primeira nota");
+        nota1=leia.nextInt();
+        System.out.println("Digite a segunda nota");
+        nota2=leia.nextInt();
+        media= nota1+nota2/2;
+        if(media>=7){
+        System.out.println("APROVADO");
+    }
+        else 
+        System.out.println("REPROVADO");
+    */
+    //QUESTAO3
+       /*
+        int nota1,nota2,nota3,media;
+        for(int i=1;i<=3;i++){
+        System.out.println("Digita a primeira nota do aluno "+(i));
+        nota1=leia.nextInt();
+        System.out.println("Digite a segunda nota do aluno "+(i));
+        nota2=leia.nextInt();
+        System.out.println("Digite a terceira nota do aluno "+(i));
+        nota3=leia.nextInt();
+        media= nota1+nota2+nota3/3;
+        if(media>=7 && media<= 10){
+        System.out.println("APROVADO");
+    }
+        else if (media>= 3 && media< 7){
+        System.out.println("EXAME");
+        }
+        else
+        System.out.println("REPROVADO");
+        
+        }
+*/
+      /* //QUESTAO4
+       int x,y,z,comp;
+        System.out.println("Mê dê os valores");
+        x= leia.nextInt();
+         y= leia.nextInt();
+          z= leia.nextInt();
+    */    
+     /* //QUESTAO5
+    int sexo;
+    double altura,pesoI;
+    System.out.println("Escolha o sexo da pessoa: 1 para mulher, 2 para homem");
+    sexo=leia.nextInt();
+    System.out.println("Digite a altura da pessoa");
+    altura= leia.nextDouble();
+    if (sexo==2){
+    pesoI = 62.1*altura-44.7;
+    System.out.println("O peso ideal para esse Homem é: "+pesoI);
+    }
+    else if (sexo==1){
+    pesoI= 72.7*altura-58;
+    System.out.println("O peso ideal para essa mulher é: "+pesoI);
+    }
+   */
+    /* //QUESTAO6
+    
+     double peso,altura,imc;
+        System.out.println("Declare o seu peso");
+        peso = leia.nextDouble();
+        System.out.println("Digite a sua altura");
+        altura = leia.nextDouble();
+        imc = peso/altura*2;
+        if(peso<=0 || altura<=0){
+            System.out.println("Valor invalido, digite um valor positivo");
+        }
+        else if(imc<20){
+            System.out.println("Abaixo do peso");
+        }
+        else if(imc>=20 && imc<=25){
+            System.out.println("Peso normal");
+        }
+        else if (imc>=25 && imc<=30){
+            System.out.println("Sobre peso");
+        }
+        else if (imc>=30 && imc<=40){
+            System.out.println("Obeso");
+        }
+        else 
+            System.out.println("peso morbido");
+*/
+/*//QUESTAO7
+int salario,percentual=30,aumento,salarionovo;
+        System.out.println("Digite o seu salario");
+        salario=leia.nextInt();
+        if(salario<=1000){
+        aumento = (salario*30)/100;
+        salarionovo= salario+aumento;
+            System.out.println("Seu salario novo com aumento de 30% será de: "+salarionovo);
+        }
+        else
+            System.out.println("Sem aumento pra você dessa vez");
+*/
+/*//QUESTAO8
+int idade;
+        System.out.println("Digite a sua idade");
+        idade=leia.nextInt();
+        if(idade<=7){
+            System.out.println("Categoria infantil");
+        }
+            else if(idade<=0){
+            System.out.println("Valor invalido, digite um valor positivo");
+            else if(idade>=8 && idade<=10){
+            System.out.println("Categoria JUVENIL");
+                }
+                   else if(idade>=11 && idade<=15){
+            System.out.println("Categoria ADOLESCENTE");
+                    }
+                   else if(idade>=16 && idade<=30){
+            System.out.println("Categoria ADULTO");
+                    }
+            else
+            System.out.println("Categoria SENIOR");
+      */              
+    /*QUESTAO9
+        int idade;
+        System.out.println("Digite a sua idade");
+        idade=leia.nextInt();
+        if(idade<16){
+            System.out.println("Não Eleitor");
+        }
+
+        
+        else if(idade>16 && idade<65){
+            System.out.println("Eleitor obrigatório");
+        }
+        else 
+            System.out.println("eleitor facultativo");
+*/
+//QUESTAO10    
+/*int num;
+        System.out.println("Digite um numero entre 1 e 7");
+        num=leia.nextInt();
+        switch (num) {
+            case 1:
+                System.out.println("Domingo");
+                break;
+            case 2:
+                System.out.println("Segunda-feira");
+                break;
+            case 3:
+                System.out.println("Terça-feira");
+                break;
+            case 4:
+                System.out.println("Quarta-feira");
+                break;
+            case 5:
+                System.out.println("Quinta-feira");
+                break;
+            case 6:
+                System.out.println("Sexta-feira");
+                break;
+            case 7:
+                System.out.println("Sabado");
+                break;
+            default:
+                System.out.println("Valor invalido");
+                break;
+        }
+        */
+//QUESTAO11 
+/*int num;
+        System.out.println("Digite um numero entre 1 e 12");
+        num=leia.nextInt();
+        switch (num) {
+            case 1:
+[19:51, 27/09/2022] Gabriel Martins - Una: System.out.println("JANEIRO");
+                break;
+            case 2:
+                System.out.println("FEVEREIRO");
+                break;
+            case 3:
+                System.out.println("MARÇO");
+                break;
+            case 4:
+                System.out.println("ABRIL");
+                break;
+            case 5:
+                System.out.println("MAIO");
+                break;
+            case 6:
+                System.out.println("JUNHO");
+                break;
+            case 7:
+                System.out.println("JULHO");
+                break;
+            case 8:
+                System.out.println("AGOSTO");
+                break;
+            case 9:
+                System.out.println("SETEMBRO");
+                break;
+            case 10:
+                System.out.println("OUTUBRO");
+                break;
+            case 11:
+                System.out.println("NOVEMBRO");
+                break;
+                case 12:
+                System.out.println("DEZEMBRO");
+                break;
+            default:
+                System.out.println("Valor invalido");
+                break;
+*/
+//QUESTAO 12
+/*int n1,n2,soma,div,sub,mult,escolha;
+        System.out.println("Digite o primeiro numero");
+        n1 = leia.nextInt();
+        System.out.println("Digite o segundo numero");
+        n2=leia.nextInt();
+        System.out.println("Digite o numero referente ao que quer fazer: ");
+        System.out.println("1-SOMAR: ");
+        System.out.println("2-DIVIDIR: ");
+        System.out.println("3-SUBTRAIR: ");
+        System.out.println("4-MULTIPLICAR: ");
+        System.out.println("5-SAIR: ");
+        escolha=leia.nextInt();
+        if(escolha==1){
+            soma = n1+n2;
+            System.out.println("A soma é: " +soma);
+        }
+        else if (escolha==2){
+            div = n1/n2;
+            System.out.println("A divisão é: " +div);
+        }
+        else if(escolha==3){
+            sub = n1-n2;
+            System.out.println("A subtração é: " +sub);
+        }
+        else if(escolha==4){
+            mult = n1*n2;
+            System.out.println("A multiplicação é: " +mult);
+        }
+        else if (escolha==5){  
+            System.out.println("O programa se encerrou);
+}
+        else
+            System.out.println("Valor invalido");
+   */
+    //QUESTAO13
+    /*
+//Scanner leia = new Scanner(System.in);
+   double a,b,c,delta,x1,x2;
+   System.out.println("Dê o valor de A");
+   a = leia.nextDouble();     
+   System.out.println("Dê o valor de B");
+   b = leia.nextDouble();
+   System.out.println("Dê o valor de C: ");
+   c = leia.nextDouble();
+   delta = b*b-4*a*c;  
+   if(delta<0){
+       System.out.println("Impossivel calcular raizes, delta negativo");
+   }
+   else if(delta==0){
+       System.out.println("Possivel calcular apenas 1 raiz");
+       x1 = (b + Math.sqrt(delta))/(2*a);
+       System.out.println(x1);
+   }
+   else if(delta>0){
+   x1 = (b + Math.sqrt(delta))/(2*a);
+   x2 = (b - Math.sqrt(delta))/(2*a);
+   System.out.println("x1 = " +x1);
+   System.out.println("x2 = " +x2);
+    }
+*/    
+}    
+    }
