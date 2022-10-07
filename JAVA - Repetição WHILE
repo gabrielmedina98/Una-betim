@@ -123,3 +123,40 @@
             }
 
         }
+        ---------------------------------------------------------
+         
+         Feitor em Sala de aula
+         
+         int num, ContLeit = 0,contador = 0 , soma = 0;
+        double raiz, dobro;
+        
+        System.out.println("Digite o numero");
+       num = leia.nextInt();
+      
+       while(num>=0){
+          
+           if(num>=10 && num <=20){   
+           ContLeit++;
+           }
+              soma =  num + soma;
+           contador ++; // ou contador +1
+          
+          raiz = Math.sqrt(num);
+          dobro = num*2;
+           System.out.println("A raiz é " + raiz);
+           System.out.println("O dobro é " + dobro);
+           System.out.println("Digite o numero inteiro");
+       num=leia.nextInt();
+       }
+  double media = 0;
+       if(contador>0)
+  media = soma/contador;
+
+       System.out.println("O numero informado é negativo");
+ System.out.println("Soma dos numeros " + soma);
+        System.out.println(" Media " + media);
+ System.out.println("Você informou " + contador + " numeros positivos");
+  System.out.println(" A quantidade de numeros inteiro entre 10 e 20 é: " + ContLeit);
+    }
+   
+}
