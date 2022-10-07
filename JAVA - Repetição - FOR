@@ -1,0 +1,150 @@
+ //QUESTAO 1
+ ackage com.mycompany.vetores;
+
+import java.util.Scanner;
+
+public class Vetores {
+
+    // Atividades da Aula de vetores
+    public static void main(String[] args) {
+        Scanner leia = new Scanner(System.in);
+        /*System.out.println("--------Inicio do programa----------");
+        
+        double num[]= new double [6];
+        
+        for (int i=0; i<num.length;i++){
+        System.out.println("Digite um numero");
+       
+        num[i] = leia.nextInt();
+        }
+        
+        System.out.println("Você digitou diversos valores que são");
+        for (int i=0; i<num.length;i++){
+            System.out.print(num[i] + "\t");
+            
+   	    //QUESTAO 2
+
+int num;
+System.out.println("Digite um numero");
+num = leia.nextInt();
+    for(int i=1;i<=num;i++){
+    if(i%2!=0)
+        System.out.println(i);
+	    
+
+
+
+         
+            
+            
+        
+        
+
+
+        // Exercicio 03 - for
+        /*int Mult;
+        System.out.println("Digite N° da tabuada ? ");
+        Mult = leia.nextInt();
+        for (int i = 0; i < 10; i++) {
+        System.out.println(Mult + "x" + i + "=" +(Mult*i) );*/
+
+
+// Exercicio 04 - for
+
+// Sem Usar vetor
+/*double soma = 0 , temp,tempmenor = 0, tempmaior = 0 , media;
+  for(int i = 1;i<=5;i++){
+    System.out.println("Digite a" + i + "temperatura");
+    temp = leia.nextInt();
+    soma = soma + temp;
+    
+    if (i==1){
+        tempmaior = temp;
+        tempmenor = temp; 
+    
+    }else if (temp<tempmenor) {
+          tempmenor = temp;}
+     else if (temp<tempmaior) {
+          tempmaior = temp;
+     
+            
+            
+  media = soma/5;
+        System.out.println("Soma das temperaturas" + soma);
+        System.out.println("A media é " + media);
+        System.out.println("A menor temperatura é" + tempmenor);*/
+        
+        
+        
+// Usando vetor
+        /*double temp[] = new double[5];
+        double soma = 0;
+        for (int i = 0; i < temp.length; i++) {
+            System.out.println("Digite a " + (i + 1) + "temperatura");
+            temp[i] = leia.nextInt();
+            soma = soma + temp[i];
+        }
+        double media;
+        System.out.println("A media da temperatura nesses dias foi de : " + (media = soma / temp.length));*/
+                
+
+// Exercio 05 - FOR
+                /*double peso;
+        double sexo;
+        int contH = 0, contM = 0;
+        for (int i = 0; i <= 3; i++) {
+            System.out.println("Informe o seu peso kg ");
+            peso = leia.nextInt();
+            System.out.println("Informe seu sexo ");
+            System.out.println("1-Masculino");
+            System.out.println("2-Feminino");
+            sexo = leia.nextDouble();
+
+            if (sexo == 1 && peso >= 60 && peso <= 80) {
+                contH++;
+            } else if (sexo == 2 && peso >= 50 && peso <= 70) {
+                contM++;
+            }
+
+        }
+
+        System.out.println("Pessoas do sexo masculino com peso entre 60kg e 80kg e:" + contH);
+        System.out.println("Pessoas do sexo Feminino com peso entre 50kg e 70kg e :" + contM);*/
+    
+/* int num = 0,dobro = 0;
+    for(int i=1; i<=5; i=i++){
+        System.out.println("Digite o " +(i++)+ " valor ");
+    num= leia.nextInt();
+          System.out.println("O dobro de "+  num + " é: " +num*2);*/
+	
+
+
+
+
+exercio 06 
+
+
+        Scanner leia = new Scanner(System.in);
+        int notas[] = new int[5];
+        double  media, maior, menor;
+        int i;
+        for (i = 1; i < notas.length; i++) {
+            System.out.println("Digite a " + i + " " + "nota");
+            notas[i] = leia.nextInt();
+        }
+        maior = notas[1];
+        menor = notas[1];
+
+        for ( i = 2; i < notas.length; i++) {
+            if (notas[i] > maior) {
+                maior = notas[i];
+            } else if (menor < notas[i]) {
+                menor = notas[i];
+            }
+        
+        }
+        //media = (notas[1]+ notas[2]+notas[3]+ notas[4]+notas[5])/5;
+        //System.out.println("A media das notas é " + media);
+
+        System.out.println("A maior nota é " + maior);
+        System.out.println("A menor nota é " + menor);
