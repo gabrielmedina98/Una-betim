@@ -1,0 +1,160 @@
+double Gasto, Garcon;
+        System.out.println("Informe o valor Gasto : ");
+        Gasto = leia.nextDouble();
+        Garcon = Gasto * 0.1;
+        System.out.printf("Valor a ser pago em gorgeta é: %.2f \t",Garcon,"R$");*/
+        
+       // Atividades Estrutura Sequencial
+
+        // Exercio 1 
+         /*int n1,n2,n3, media;
+         System.out.print("Digite os três valores: ");
+         n1 = leia.nextInt();
+         n2 = leia.nextInt();
+         n3 = leia.nextInt();
+         media = (n1+n2+n3)/3;
+         System.out.print("A media da áritmetcica é " + media);*/
+// Exercício 2
+
+        /*int Nasc,AnoAtual,idade,IdFutura;
+         System.out.print("Digite o ano de Nascimento: ");
+         Nasc = leia.nextInt();
+         System.out.print("Digite o ano atual: ");
+         AnoAtual = leia.nextInt();
+         idade= AnoAtual - Nasc;
+         System.out.print("A sua idade é " + idade);
+         IdFutura = 2050 - Nasc;
+         System.out.println();("A sua idade 2050 sera de : " + IdFutura);*/
+// Exercio 3
+
+        /*double CtDolar,ValDolar, Reais;
+         System.out.println("Digite o valor que possui em dólar: ");
+         ValDolar = leia.nextDouble();
+         System.out.println("Cotação atual dólar : ");
+         CtDolar = leia.nextDouble();
+         Reais = ValDolar * CtDolar;
+         System.out.println("Valor em Reais :" + Reais);*/
+// Exercício 4
+/*double / Dmaior , Dmenor , area;
+         System.out.println("Valor da Diagonal Maior");
+         Dmaior = leia.nextDouble ();
+         System.out.println("Valor da Diagonal Menor ");
+         Dmenor = leia.nextDouble ();
+         area = Dmaior * Dmenor;
+         System.out.printf("Area do losango é : %.3f m2\n", area);*/
+        // Exercício 5
+
+        /*double Celsius, Fahrenheit;
+         System.out.println("Temperatura em C° : ");
+         Celsius = leia.nextDouble ();
+         Fahrenheit = (Celsius*1.8) + 32;
+         System.out.printf("Temperatura em F°: %2.f \n", Fahrenheit );*/
+// Exercício 6
+        /*double a,b,c, delta,x1,x2;
+         System.out.println("Digite os valores dos coeficientes a , b e c ");
+         a = leia.nextDouble();
+         b = leia.nextDouble();
+         c = leia.nextDouble();
+       
+         delta = Math.pow(b,2) - 4*a*c;
+         System.out.println("Valor de delta é: " + delta);
+         x1 = (-b + Math.sqrt(delta))/(2*a);
+         x2 = (-b - Math.sqrt(delta))/(2*a);   
+
+         System.out.println("Valor de X1" + x1);
+         System.out.println("Valor de X2" + x2); */
+                 
+        
+
+// Exercicio 7  
+        /*double SalMinimo , SalAtual , Valor;   
+        System.out.println("Digite o Salário minimo: ");
+         SalMinimo = leia.nextDouble();
+         System.out.println("Digite o salário atual: ");
+         SalAtual = leia.nextDouble();
+         Valor = SalAtual/ SalMinimo;
+        System.out.printf("Valor salário minimo %.2f %n",Valor);*/
+         
+        /*int Mult;
+        System.out.println("Digite N° da tabuada ? ");
+        Mult = leia.nextInt();
+        for (int i = 0; i < 10; i++) {
+        System.out.println(Mult + "x" + i + "=" +(Mult*i) );*/
+            
+       
+        
+         // Exercicio 9
+        /*int Nqua;
+        double Elevado, Cubo, Raiz, Rcubica;
+        System.out.println("Digite o numero");
+        Nqua = leia.nextInt();
+        Elevado = Math.pow(Nqua, 2);
+        System.out.println(Nqua + "² = " + Elevado);
+        Cubo = Math.pow(Nqua, 3);
+        System.out.println(Nqua + "³ = " + Cubo);
+        Raiz = Math.sqrt(Nqua);
+        System.out.println("Raiz de " + Nqua + " e = " + Raiz);
+        Rcubica = Math.cbrt(Nqua);
+        System.out.println("Raiz cubica " + Nqua + " e = " + Rcubica);*/
+        
+        //Exercicio 10
+        
+         /*double Gasto, Garcon;
+        System.out.println("Informe o valor Gasto : ");
+        Gasto = leia.nextDouble();
+        Garcon = Gasto * 0.1;
+        System.out.printf("Valor a ser pago em gorgeta é: %.2f R$ %n" ,Garcon);*/
+       
+        //Exercicio 11
+        /*int N1,Antec,Sucessor, dobro , metade;
+        System.out.println("Digite o numero inteiro: ");
+        N1 = leia.nextInt();
+        Antec = N1-1;
+        System.out.println("O numero antecessor de \t" + N1+ " é " + Antec);
+       Sucessor = N1+1;
+        System.out.println("O numero sucessor de \t" + N1+ " é " + Sucessor);
+        dobro = N1*2;
+        System.out.println("O dobro do numero \t" + N1+ " é " + dobro);
+        metade = N1/2;
+        System.out.println("A metade de \t " + N1 + " é " + metade);*/
+
+//Exercio 12
+
+/*a) double altura,Pesoideal;
+        System.out.println("Digite sua altura em metros : ");
+        altura = leia.nextDouble();
+        Pesoideal = (72.7*altura)-58;
+        System.out.println("Seu peso ideal é : " + Pesoideal);*/
+       
+        //Exercio 13
+   /*double altura,Pesoideal;
+        System.out.println("Digite sua altura em metros : ");
+        altura = leia.nextDouble();
+        Pesoideal = (72.7*altura)-44.7;
+        System.out.println("Seu peso ideal é : " + Pesoideal);*/
+   
+   //Calculo IMC
+  // double Peso, Altura;
+  
+  //Exercio 14
+  /*int A,B;
+        System.out.println("Digite os valores de A e B: ");
+        A=leia.nextInt();
+        B=leia.nextInt();
+            System.out.println("O valor de A é : " + B);
+            System.out.println("O valor de B é : " + A);*/
+            
+      //Exercio 15
+     /* int Eleitores,Votos1,Votos2,Cad1,Cad2,VotosNulos;
+        System.out.println("Digite o numero a quantidade de Eleitores:");
+        Eleitores=leia.nextInt();
+        System.out.println("Votos no Candidato 1 e Votos no Candidato 2:");
+        Votos1 = leia.nextInt();
+        Votos2 = leia.nextInt();
+        Cad1= (Votos1*100)/Eleitores;
+        System.out.println("O percentual de Votos no candito 1 é " + Cad1+"%");
+        Cad2= (Votos2*100)/Eleitores;
+        System.out.println("O percentual de Votos no candito 2 é " + Cad2+"%");
+
+        VotosNulos = (Eleitores-Votos1-Votos2)*100/Eleitores;
+ System.out.println("Quantidade de votos nulos são " + VotosNulos+"%");*/
