@@ -1,0 +1,125 @@
+/ Exercio 1
+/*double matricula, nota1, nota2, nota3, soma, media;
+        System.out.println("Digite sua matricula");
+        matricula = leia.nextInt();
+
+        while (matricula >= 0) {
+
+            System.out.println("Digite suas três notas : ");
+            nota1 = leia.nextInt();
+            nota2 = leia.nextInt();
+            nota3 = leia.nextInt();
+            soma = nota1 + nota2 + nota3;
+            media = soma / 3;
+                if (media >= 70) 
+                    System.out.println("Aprovado sua media é " + media);
+                else if (media < 60) {
+                    System.out.println("Reprovado" + media);
+                   
+                } 
+                 System.out.println("Digite sua matricula");
+                  matricula = leia.nextInt();
+            }
+        
+        System.out.println("Matricula invalida");*/
+// exercio 2 
+
+        /*int idade, ContLeit = 0, contador = 0, soma=0;
+
+        System.out.println("Digite a idade");
+        idade = leia.nextInt();
+
+        while (idade > 0) {
+
+            if (idade >= 50 && idade <= 100) {
+                ContLeit++;
+            }
+            soma = idade + soma;
+            contador++; // ou contador +1
+            System.out.println("Digite outra idade");
+            idade = leia.nextInt();
+        }
+        double media;
+        media = soma/contador;
+        System.out.println("Idade invalida");
+        System.out.println("Idade acima de 50 anos é: " + ContLeit);
+        System.out.println("A media de idades é :" + media);*/
+//exercio 3
+
+
+// Exercicio 4
+        /* double sal=0,mediaF=0, mediaS=0,somaF=0, somaS=0;
+        int filhos=0, cont=0;
+       
+        while (2>1){
+            System.out.println("Qual o seu salário");
+            sal = leia.nextDouble();
+        if (sal<0) {
+           break; 
+        }
+        System.out.println("Qual o numero de filhos");
+            filhos = leia.nextInt();
+            somaF=filhos+somaF;
+             somaS = sal+somaS;
+        
+        cont++;
+        
+        }
+        mediaF=somaF/cont;
+        mediaS=somaS/cont;
+        System.out.printf("A media de filhos é  %.2f  \n", mediaF);
+        System.out.printf("A media do salário é %.2f $ \n ",  mediaS );*/
+        
+        // exercicio 5  
+        /*double num1, num2, multiplicacao, divisao, soma, subtr, opcao = 0, cont = 0;
+        System.out.println("Digite um numero");
+        num1 = leia.nextInt();
+        
+        // tentativa - conseguir que o sistema faça o loop até o usuário digite o numero correro informado
+
+       while (num1 < num2) {
+
+            System.out.println("Digite o segundo numero");
+            num2 = leia.nextInt();
+            if (num2 > num1) {
+                System.out.println("O segundo numero deve ser menor que 1°");
+            }
+        }
+
+        while (num1 > 0 && num1 >= num2 && opcao != 5) {
+            if (num1 < num2) {
+                System.out.println("Escolha o primeiro numero maior que o segundo");
+            }
+
+            cont++;
+            System.out.println("Escolha uma opção");
+            System.out.println("1 - SOMAR");
+            System.out.println("2 - SUBTRAIR: ");
+            System.out.println("3 - MULTIPLICAR: ");
+            System.out.println("4 - DIVIDIR: ");
+            System.out.println("5 - SAIR: ");
+            opcao = leia.nextDouble();
+
+            if (opcao == 1) {
+                soma = num1 + num2;
+                System.out.println("A soma é: " + soma);
+
+            } else if (opcao == 2) {
+                subtr = num1 - num2;
+                System.out.println("A Sutração e : " + subtr);
+
+            } else if (opcao == 3) {
+                multiplicacao = num1 * num2;
+                System.out.println("A soma é: " + multiplicacao);
+
+            } else if (opcao == 4) {
+                divisao = num1 / num2;
+                System.out.println("A soma é: " + divisao);
+
+            }
+
+            if (opcao == 5) {
+                System.out.println("Saiu do Sistema");*/
+            }
+
+        }
