@@ -1,0 +1,45 @@
+Exercicio de vetor 
+
+
+ Scanner leia = new Scanner (System.in);
+        System.out.println("--------Inicio do Programa--------");
+        double soma = 0,media, maiorTemperatura = -99999, menorTemperatura = 99999;
+        int qtde = 3 , quantacima = 0 , quantiabaixo=0; 
+        
+        double vertemp[] = new double [qtde];
+        
+
+        for (int i = 0; i <vertemp.length; i++){
+            System.out.print("Digite a " + (i+1) + "ª temperatura: ");
+            vertemp[i] = leia.nextDouble();
+            
+            if (vertemp[i] > maiorTemperatura){
+                maiorTemperatura = vertemp[i];
+            }
+            
+            
+            else if (vertemp[i] < menorTemperatura){
+                 menorTemperatura = vertemp[i];
+            }
+                
+            soma = soma + vertemp[i];
+        }
+        media = soma/qtde;
+        System.out.println("Temperaturas Lidas");
+        for (int i = 0; i <vertemp.length; i++){
+        if (vertemp[i] > media)
+            quantacima++;
+            
+        if (vertemp[i] < media)
+            quantiabaixo++;
+            System.out.println(" \t " + vertemp[i]);
+        }
+        
+        System.out.println("A soma das temperaturas é " + soma);
+        System.out.println("Média das temperaturas: " + media);
+        System.out.println("Maior temperatura: " + maiorTemperatura);
+        System.out.println("Menor temperatura: " + menorTemperatura);
+        System.out.println("Temp acima da média: " +quantacima );
+System.out.println("Temp acima da média: " + quantiabaixo);
+    }
+}
