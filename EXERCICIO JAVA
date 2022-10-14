@@ -1,0 +1,78 @@
+/* 1 -  Faça um programa que leia um vetor com as notas de 10 alunos e imprima a
+     maior e a menor notas, bem como quais os alunos que obtiveram essas notas.*/
+
+
+        /*int vetor[] = new int[4];
+        double maiornota = -9999;
+        double menornota = 9999;
+        for (int i = 0; i < vetor.length; i++) {
+
+            System.out.println("Digite a " + (i+1) + " nota");
+            vetor[i] = leia.nextInt();
+
+            if (vetor[i] > maiornota) {
+                maiornota = vetor[i];
+
+            }
+
+            if (vetor[i] < menornota) {
+                menornota = vetor[i];
+
+            }
+
+        }
+
+        System.out.println("Maior nota é :" + maiornota);
+        System.out.println("Menor nota é :" + menornota);
+
+        
+       for (int i = 0; i < vetor.length; i++){
+           if(vetor[i]==menornota)
+               System.out.println("O aluno no indice "+i+ "obteve a menor nota");
+           else if(vetor[i]==maiornota)
+               System.out.println("O aluno no indice "+i + "obeteve a maior nota");
+         
+    }*/
+       
+ /* 2. Faça um programa que leia as notas de 10 alunos, calcule a média das notas, e imprima:
+A média das notas
+Uma listagem contendo os alunos, com suas respectivas notas, que obtiveram notas abaixo da média
+Uma listagem contendo os alunos, com suas respectivas notas, que obtiveram notas maiores ou iguais à média*/
+
+
+
+/*int qtde=5;
+ int vetor[] = new int[qtde];
+        double maiornota = -9999;
+        double menornota = 9999;
+        int soma=0,media;
+        for (int i = 0; i < vetor.length; i++) {
+
+            System.out.println("Digite a " + (i+1) + " nota");
+            vetor[i] = leia.nextInt();
+
+            if (vetor[i] > maiornota) {
+                maiornota = vetor[i];
+
+            }
+
+            if (vetor[i] < menornota) {
+                menornota = vetor[i];
+
+            }
+            
+            soma=vetor[i]+soma;
+
+        }
+        media=soma/qtde;
+        
+
+   
+        System.out.println("A media das notas é: " + media);
+        
+       for (int i = 0; i < vetor.length; i++){
+           if(vetor[i]<=media)
+               System.out.println("O aluno no indice " +i+ " obteve a nota menor que a media");
+           else if(vetor[i]>=media)
+               System.out.println("O aluno no indice " +i + " obeteve a nota maior que a media");
+       }*/
