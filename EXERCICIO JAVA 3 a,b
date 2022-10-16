@@ -1,0 +1,73 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package exerciciovetores;
+
+import java.util.Scanner;
+
+public class ExercicioVetores {
+
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+
+        //Imprimindo a posição dos numeros pares e quantidade
+        
+        
+        /* System.out.println("----INICIO-----");
+        int vetor[] = new int[5];
+        int totalpar = 0;
+
+        for (int i = 0; i < vetor.length; i++) {
+            System.out.println("Digite o " + (i + 1) + "valor");
+            vetor[i] = input.nextInt();
+            
+        }
+
+        for (int i = 0; i < vetor.length; i++) {
+            if (vetor[i] % 2 == 0) {
+                totalpar++;
+            }
+            System.out.println("A posição dos numeros pares no indice é: " + i);
+        }
+        
+        System.out.println("O total de pare são " + totalpar);*/
+        
+
+
+//Listagem de Alunos com a sua respctiva nota e media
+// Inforamção de quantos alunos tem notas acima da 
+        /*int n1[] = new int[3], n2 [] = new int [3];
+       String nome[] = new String [3];
+       double media [] = new double [3];
+       int cont=0;
+       double mediatotal, somamedia=0;
+       
+       for (int i=0; i<n1.length;i++){
+           System.out.println("Aluno " + (i+1));
+           System.out.println("Escreva seu nome: ");
+           nome[i]=input.next();
+           System.out.println("Digite sua primeira nota: ");
+           n1[i]=input.nextInt();
+           System.out.println("Digite sua Segunda nota: ");
+           n2[i]=input.nextInt();
+          
+       media[i] = (n1[i]+n2[i])/2;
+       somamedia = somamedia+media[i];
+       }
+       mediatotal=somamedia/4;
+       
+        System.out.println("LISTAGEM DE ALUNOS");
+     for (int i=0; i<n1.length;i++){
+         System.out.println(nome[i]  + "\t" + media[i]);
+         if (media[i]>mediatotal) {
+             cont++;
+             
+         }
+     }
+        System.out.println("A media da turma é " + mediatotal);
+        System.out.println("Ao todo temos " + cont + " alunos acima da media");*/
+        
+    }
+}
