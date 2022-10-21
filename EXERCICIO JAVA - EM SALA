@@ -1,0 +1,97 @@
+
+package aula20102022;
+
+import java.util.Scanner;
+
+public class Aula20102022 {
+
+    public static void main(String[] args) {
+        Scanner leia = new Scanner(System.in);
+
+        /*6 -Faça um programa que solicite ao usuário que informe 
+        inicialmente os 6 números sorteados na Mega Sena. 
+        Em seguida, peça que ele digite os 6 números do cartão que jogou. 
+        Imprima a quantidade de pontos que ele fez no concurso.*/
+ /*int vet[] = new int[6];
+        int usi[] = new int[6];
+       
+        int cont = 0;
+        for (int i = 0; i < vet.length; i++) {
+            System.out.print("Digite os N° da MEGA SENA ");
+            vet[i] = leia.nextInt();
+        }
+        for (int j = 0; j < usi.length; j++) {
+            System.out.println("Digite os N° que você escolheu ");
+            usi[j] = leia.nextInt();
+
+        }
+        for (int i = 0; i < vet.length; i++) {
+            for (int j = 0; j < vet.length; j++) {
+                if (vet[i] == usi[j]) {
+                    cont++;
+
+                }
+
+            }
+
+        }
+        System.out.println("Pontos feito na MEGA DA VIRADA " + cont);*/
+ /*5. Faça um programa que leia um vetor com 10 elementos. 
+        Em seguida, troque todos os valores negativos do vetor por 0. 
+                Imprima o vetor alterado.
+        int vet [] = new int [4];
+        for (int i = 0; i<vet.length; i++) {
+            System.out.println("Digite os valores ");
+            vet[i] = leia.nextInt();
+        }
+        for (int i = 0; i <vet.length; i++) {
+            if (vet[i] < 0)
+                vet[i] = 0;
+           
+            
+        }
+        
+        for (int i = 0; i<vet.length; i++) {
+            System.out.println(vet[i]);
+            
+        }*/
+        // exercicio em sala de aula
+        int vet[] = new int[4];
+        int soma = 0;
+        int media = 0;
+        int maior = 0; 
+        int menor = 0;
+               
+       
+        for (int i = 0; i < vet.length; i++) {
+            System.out.println("Digite a " + (i + 1) + "° nota");
+            vet[i] = leia.nextInt();
+            soma = vet[i] + soma;
+        }
+        maior = vet[0];
+        menor = vet[0];
+        media = soma / vet.length;
+        System.out.println("A media foi " + media);
+        for (int i = 0; i < vet.length; i++) {
+            if (vet[i] >= media) {
+                System.out.println("Nota maior que a media " + vet[i]);
+            }
+            if (vet[i] > maior) {
+                maior = vet[i];
+            }
+            else if(vet[i]<menor)
+                menor=vet[i];
+                
+        }
+         System.out.println("Maior nota é :" + maior);
+        System.out.println("Menor nota é :" + menor);
+
+        /*7. A temperatura ambiente de uma região pode ser obtida a partir de um ajuste de dados experimentais por uma série de Fourier. A função a seguir foi obtida a partir dos dados experimentais de temperatura da cidade de Belo Horizonte no mês de agosto de 2013
+
+
+em que: 
+T = Temperatura ambiente (oC ); 
+t = tempo em horas. */
+    }
+
+}
