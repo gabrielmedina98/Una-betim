@@ -50,12 +50,30 @@
         }
 */
       /* //QUESTAO4
-       int x,y,z,comp;
-        System.out.println("Mê dê os valores");
-        x= leia.nextInt();
-         y= leia.nextInt();
-          z= leia.nextInt();
-    */    
+ int x,y,z;
+        System.out.println("Digite o valor de X");
+        System.out.println("Digite o valor de y");
+        System.out.println("Digite o valor de z");
+        x = leia.nextInt();
+        y = leia.nextInt();
+        z = leia.nextInt();
+        
+        if ((y+z>x) && (x+z>y) && (x+y>z) ){
+            System.out.println("Forma um triângulo");
+            
+         if ((x==y) && (y==z))
+          System.out.println("Triangulo Equilátero");
+        
+        else if ((x==y) || (y==z) || (z==x))
+            System.out.println("Triangulo Isosceles");
+        else 
+            System.out.println("Triangulo escaleno");
+        }
+        else {
+        System.out.println("Não forma um triângulo");
+        }
+        }
+    } 
      /* //QUESTAO5
     int sexo;
     double altura,pesoI;
