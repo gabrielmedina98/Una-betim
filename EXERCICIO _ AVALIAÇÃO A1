@@ -1,0 +1,60 @@
+/******************************************************************************
+PROVA A1
+
+
+*******************************************************************************/
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner leia = new Scanner(System.in);
+	    System.out.println("------- INICIO DO PROGRAMA ---------");
+        double vet[] = new double[5];
+        double soma = 0, media;
+        double Vrapida = 999999, Vlenta = -999999;
+	    
+		for (int i = 0; i < vet.length; i++) {
+            System.out.println("Digite o valor da " + (i + 1) + "° volta em segundos ");
+            vet[i] = leia.nextDouble();
+            soma = soma + vet[i];
+
+            
+        }
+        System.out.printf("------Media--------");
+        media = soma / vet.length;
+        System.out.printf("\n A media das voltas foram:[ %.2f ]segundos ", media);
+
+        System.out.println("\n------------ Resultados------------");
+        for (int i = 0; i < vet.length; i++) {
+            if (vet[i] < Vrapida) {
+                Vrapida = vet[i];
+            }
+
+            if (vet[i] > Vlenta) {
+                Vlenta = vet[i];
+
+            }
+        }
+       
+
+        for (int i = 0; i < vet.length; i++) {
+            if (vet[i] == Vlenta) {
+                System.out.println("A volta " + (i + 1) + "° foi a mais lenta com " + Vlenta + " segundos");
+            } else if (vet[i] == Vrapida) {
+                System.out.println("A volta " + (i + 1) + "°  foi a mais rapida com " + Vrapida + " segundos");
+
+            }
+
+        }
+
+        for (int i = 0; i < vet.length; i++) {
+
+            if (vet[i] > media) {
+                System.out.println("A volta " + (i + 1) + "° foi acima da media feita em " + vet[i] + "segundos");
+            } else if (vet[i] < media) {
+                System.out.println("A volta " + (i + 1) + "° foi abaixo media feita em " + vet[i] + "segundos");
+            }
+        }
+
+    }
+}
